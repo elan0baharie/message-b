@@ -20,17 +20,17 @@ You will need the following things properly installed on your computer.
   * Spec 4: Create a response object.
   * Spec 5: Implement CRUD for response.
 
-3. Integration
+2. Integration
   * Initial routes will include Question, Edit, and Index.
   * Template/html page for Question route
   * Template/html page for Edit Route
   * Template/html page for home
 
-4. UX/UI
+3. UX/UI
   * Include and modify bootstrap/materialize/Sass etc.
   * Develop custom style
 
-5. Polish
+4. Polish
   * Refactor minor portion of...
   * Delete unused...
   * Make README awesome
