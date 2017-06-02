@@ -1,7 +1,6 @@
 # message-b
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+I created a question and answer board to submit a question, then other users can respond.
 
 ## Prerequisites
 
@@ -11,6 +10,30 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/) (with NPM)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+
+## Planning
+
+1. Specs
+  * Spec 1: Generate routes.
+  * Spec 2: Create a post object.
+  * Spec 3: Implement CRUD for post.
+  * Spec 4: Create a response object.
+  * Spec 5: Implement CRUD for response.
+
+3. Integration
+  * Initial routes will include Question, Edit, and Index.
+  * Template/html page for Question route
+  * Template/html page for Edit Route
+  * Template/html page for home
+
+4. UX/UI
+  * Include and modify bootstrap/materialize/Sass etc.
+  * Develop custom style
+
+5. Polish
+  * Refactor minor portion of...
+  * Delete unused...
+  * Make README awesome
 
 ## Installation
 
