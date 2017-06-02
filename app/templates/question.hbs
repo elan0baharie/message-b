@@ -1,7 +1,7 @@
 <div class="well">
   <form class="horizontal-inline">
     <div class="form-group">
-      <p>Qs {{model}}</p>
+      <p>Qs {{#link-to 'edit' model.id}}{{model.author}}{{/link-to}}</p>
     </div>
   </form>
 </div>
