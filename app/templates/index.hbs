@@ -1,5 +1,11 @@
 <div class="well">
   <p>A basic message board site to answer tech qs.</p>
 </div>
-
-{{#link-to 'question'}See Questions{{/link-to}}
+<div class="well">
+  <h3>List of questions.</h3>
+  <ul>
+    {{#each model.questions as |question|}}
+      {{question-tile question=question}}
+    {{/each}}
+</ul>
+</div>
