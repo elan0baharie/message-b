@@ -1,7 +1,17 @@
 <div class="well">
-  <form class="horizontal-inline">
-    <div class="form-group">
-      <p>Qs {{#link-to 'edit' model.id}}{{model.author}}{{/link-to}}</p>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3>{{#link-to 'edit' model.id}}{{model.content}}{{/link-to}}</h3>
     </div>
-  </form>
+    <div class="panel-body">
+      <h5>{{model.author}}</h5>
+      <p><strong>Notes:</strong> {{model.note}}</p>
+      {{new-response saveResponse="saveResponse" question=model}}
+      <ul>
+        {{#each model.responses as |response|}}
+          {{response-tile response=response}}
+        {{/each}}
+      </ul>
+    </div>
+  </div>
 </div>
